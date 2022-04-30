@@ -1,0 +1,98 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="css/PcsListCss.css">
+        <link rel="stylesheet" href="css/navbar.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    </head>
+    <body>
+        <div class="home">
+            <div class="navbar">
+                <ul class="nav_links">
+                    <li><a href="Laboratoty Tracking Website.html"><i class="fa fa-home"></i>Home</a></li>
+                    <li><a href="edit_labs.html"><i class="fa-solid fa-pen-to-square"></i>Edit</a></li>
+                    <li><a href="new.html"><i class="fa-solid fa-circle-plus"></i>Add Lab</a></li>
+                    <li><a href="list_lab.html"><i class="fa-solid fa-laptop"></i>Show Lab</a></li>
+                        <li><a href="new_html.html"><i class="fa-solid fa-circle-plus"></i>Add PC</a></li>
+                        <li><a href="PcsList.html"><i class="fa-solid fa-list"></i>Show PC</a></li>
+                </ul>
+                </div>
+        </div>
+        <br>
+        <div id="listb">
+            <form style="color: crimson;">Pcs that need a repair</form>
+            <table>
+                <tr>
+                    <th>Laboratory ID</th>
+                    <th>Pc Number</th>
+                    <th>Problem Type</th>
+                    <th>Problem Details</th>
+                    <th>Date of occurrence</th>
+                    <th>Status
+                        <input type="image" src="img/Editbtn.png" width="19px" height="21px" id="Editbtn" onclick="change()">
+                        <input type="image" src="img/Savebtn.png" width="21px" height="24px" id="Savebtn" onclick="save()">
+                    </th>
+                    <th>
+                        Action
+                    </th>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td id="input">
+                        <label class="mainst">Repaired</label>
+                        <select class="stchng" style="display: none;">
+                        <option value="Repaired" class="st1">Repaired</option>
+                        <option value="Not Repaired" class="st2">Not Repaired</option>
+                        </select>
+                    </td>
+                    <td>
+                        <a href="edit_pcs.html"><button > Edit
+                        </button></a>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td id="input">
+                        <label class="mainst">Repaired</label>
+                        <select class="stchng" style="display: none;">
+                            <option value="Repaired" class="st1">Repaired</option>
+                            <option value="Not Repaired" class="st2">Not Repaired</option>
+                        </select>
+                    </td>
+                    <td>
+                        <a href="edit_pcs.html"><button > Edit
+                        </button></a>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td id="input">
+                        <label class="mainst">Repaired</label>
+                        <select class="stchng" style="display: none;">
+                            <option value="Repaired" class="st1">Repaired</option>
+                            <option value="Not Repaired" class="st2">Not Repaired</option>
+                        </select>
+                    </td>
+                    <td>
+                        <a href="edit_pcs.html"><button > Edit
+                        </button></a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <script type="text/javascript" src="js/PcsListJs.js"></script>
+    </body>
+</html>

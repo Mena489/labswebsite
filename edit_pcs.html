@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>update PCs</title>
+    <link rel="stylesheet" href="css/edit_PCs.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+    <div class="home">
+        <div class="navbar">
+            <ul class="nav_links">
+                <li><a href="Laboratoty Tracking Website.html"><i class="fa fa-home"></i>Home</a></li>
+                <li><a href="edit_labs.html"><i class="fa-solid fa-pen-to-square"></i>Edit</a></li>
+                <li><a href="new.html"><i class="fa-solid fa-circle-plus"></i>Add Lab</a></li>
+                <li><a href="list_lab.html"><i class="fa-solid fa-laptop"></i>Show Lab</a></li>
+                    <li><a href="new_html.html"><i class="fa-solid fa-circle-plus"></i>Add PC</a></li>
+                    <li><a href="PcsList.html"><i class="fa-solid fa-list"></i>Show PC</a></li>
+            </ul>
+            </div>
+    </div>
+    <div class="wrapper">
+    <h1>Adding the new information which you want to change</h1>
+    
+    <p>
+        <b >PC ID:</b><br>
+        <input type="text" name="id">
+        <br><br>
+        <b >Laboratory ID:</b><br>
+        <input type="text" name="lab_id">
+        <br><br>
+        <b>Status of PC:
+        </b><br>
+        <input type="radio" name="status">active<br>
+        <input type="radio" name="status">under maintenance<br>
+        <br>
+        <button onclick="confirm('Are you sure ?');"style="font-size: 12px;">Complete</button>
+    </p>
+</div>
+</body>
+</html>
